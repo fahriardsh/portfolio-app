@@ -73,7 +73,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              In late 2021, I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean's List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
+              In late 2021, I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
             </p>
           </div>
         ),
@@ -84,7 +84,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo in late 2023 and embark on a new chapter in my academic journey: pursuing a Master's degree, once again in Malaysia.
+              Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo in late 2023 and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
             </p>
           </div>
         ),
@@ -95,7 +95,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              My year of Master's studies (ending in late 2024) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
+              My year of Master&apos;s studies (ending in late 2024) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
             </p>
           </div>
         ),
