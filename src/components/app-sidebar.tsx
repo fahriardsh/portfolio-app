@@ -2,10 +2,10 @@
 
 import * as React from "react"
 import {
-  AudioWaveform,
+  // AudioWaveform,
   Blocks,
   Calendar,
-  Command,
+  // Command,
   Home,
   Inbox,
   MessageCircleQuestion,
@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/sidebar"
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+// import Image from "next/image";
 
 // This is sample data.
 const data = {

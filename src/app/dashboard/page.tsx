@@ -2,13 +2,13 @@ import { AppSidebar } from "@/components/app-sidebar"
 import { TimelineDemo } from "@/components/app-timeline"
 // import { TimelineDemo } from "@/components/app-timeline"
 // import { NavActions } from "@/components/nav-actions"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbList,
-  BreadcrumbPage,
-} from "@/components/ui/breadcrumb"
-import { Separator } from "@/components/ui/separator"
+// import {
+//   Breadcrumb,
+//   BreadcrumbItem,
+//   BreadcrumbList,
+//   BreadcrumbPage,
+// } from "@/components/ui/breadcrumb"
+// import { Separator } from "@/components/ui/separator"
 import {
   SidebarInset,
   SidebarProvider,
