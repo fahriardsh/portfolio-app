@@ -1,4 +1,6 @@
 import { AppSidebar } from "@/components/app-sidebar"
+import { Hero } from "@/components/app-hero"
+import { Social } from "@/components/app-social"
 import { TimelineDemo } from "@/components/app-timeline"
 // import { TimelineDemo } from "@/components/app-timeline"
 // import { NavActions } from "@/components/nav-actions"
@@ -16,7 +18,7 @@ import {
 } from "@/components/ui/sidebar"
 
 
-export default function Dashboard() {
+export default function Home() {
   
   return (
     <SidebarProvider>
@@ -40,15 +42,16 @@ export default function Dashboard() {
             <NavActions />
           </div> */}
         </header>
-        <div className="flex flex-1 flex-col gap-4 px-4 py-10">
-          <div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
-          <div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
-          {/* <TimelineDemo></TimelineDemo> */}
-        </div>
-        <div className="flex flex-1 flex-col gap-4 px-4 py-10">
+        {/* <div className="flex flex-1 flex-col gap-4 px-4 py-10">
           <div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
           <div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
         </div>
+        <div className="flex flex-1 flex-col gap-4 px-4 py-10">
+          <div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
+          <div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
+        </div> */}
+        <Social></Social>
+        <Hero></Hero>
         <TimelineDemo></TimelineDemo>
         <br />
         <br />

@@ -109,7 +109,7 @@ export default function HomePage() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('/dashboard');
+    router.push('/home');
   }, [router]);
 
   return null; // Or a loading indicator, or a message

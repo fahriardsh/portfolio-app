@@ -55,62 +55,62 @@ export function TimelineDemo() {
             </p>
           </div>
         ),
-      },
-      {
-        title: "Mid 2021",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Full-Time Immersion</p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              My internship at Dreta Teknologi Solusindo transitioned into a full-time position. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles.
-            </p>
-          </div>
-        ),
-      },
-      {
-        title: "Late 2021",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              In late 2021, I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
-            </p>
-          </div>
-        ),
-      },
-      {
-        title: "Late 2023",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
-            </p>
-          </div>
-        ),
-      },
-      {
-        title: "Late 2024",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              My year of Master&apos;s studies in Asia Pacific University (APU) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
-            </p>
-          </div>
-        ),
-      },
-      {
-        title: "2025",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">The Future Awaits</p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              As I look ahead to 2025, I am eager to leverage my academic achievements, industry experience, and international perspective to contribute meaningfully to the field of software engineering and make a positive impact on the world.
-            </p>
-          </div>
-        ),
-      },
+    },
+    {
+      title: "Mid 2021",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Full-Time Immersion</p>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+            My internship at Dreta Teknologi Solusindo transitioned into a full-time position. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles.
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: "Late 2021",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+            In late 2021, I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: "Late 2023",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+            Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: "Late 2024",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+            My year of Master&apos;s studies in Asia Pacific University (APU) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: "2025",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">The Future Awaits</p>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+            As I look ahead to 2025, I am eager to leverage my academic achievements, industry experience, and international perspective to contribute and make a positive impact on the world.
+          </p>
+        </div>
+      ),
+    },
   ];
   return (
     <div className="w-full">
