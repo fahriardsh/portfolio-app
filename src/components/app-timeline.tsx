@@ -40,7 +40,7 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Navigating Uncharted Waters</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            The onset of the COVID-19 pandemic in early 2020 forced an unexpected return to Indonesia. Undeterred, I adapted to the situation and successfully completed my final semester of studies remotely.
+            The onset of the COVID-19 pandemic forced an unexpected return to Indonesia. Undeterred, I adapted to the situation and successfully completed my final semester of studies remotely.
           </p>
         </div>
       ),
@@ -51,7 +51,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A First Taste of Industry</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              Fueled by a desire to apply my newfound knowledge, I secured an internship at Dreta Teknologi Solusindo in late 2020. This hands-on experience proved to be incredibly enriching, providing me with a comprehensive introduction to the world of software development.
+              Fueled by a desire to apply my newfound knowledge, I secured an internship at Dreta Teknologi Solusindo. This hands-on experience proved to be incredibly enriching, providing me with a comprehensive introduction to the world of software development.
             </p>
           </div>
         ),
@@ -62,7 +62,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Full-Time Immersion</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              My internship at Dreta Teknologi Solusindo transitioned into a full-time position in mid-2021. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles.
+              My internship at Dreta Teknologi Solusindo transitioned into a full-time position. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles.
             </p>
           </div>
         ),
@@ -84,7 +84,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo in late 2023 and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
+              Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
             </p>
           </div>
         ),
@@ -95,7 +95,7 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              My year of Master&apos;s studies (ending in late 2024) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
+              My year of Master&apos;s studies in Asia Pacific University (APU) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
             </p>
           </div>
         ),
