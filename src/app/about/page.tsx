@@ -13,7 +13,7 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 
-export default function Dashboard() {
+export default function About() {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -26,7 +26,7 @@ export default function Dashboard() {
               <BreadcrumbList>
                 <BreadcrumbItem>
                   <BreadcrumbPage className="line-clamp-1">
-                    Fahri Pratama Ardiansyah
+                    Fahri
                   </BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
