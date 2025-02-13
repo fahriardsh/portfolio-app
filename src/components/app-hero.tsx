@@ -12,7 +12,7 @@ export function Hero() {
       className: "text-blue-500 dark:text-blue-500",
     },
     {
-      text: "Ardiansyah.",
+      text: "Ardiansyah,",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
@@ -25,7 +25,9 @@ export function Hero() {
         Driven by innovation and a passion for technology...
       </p>
       <TypewriterEffectSmooth words={words} />
-      
+      <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base pb-3" style={{textAlign: "center", width: "54rem", paddingBottom: "3rem"}}>
+        a creative technologist with a knack for blending design and functionality. I am driven by a desire to build impactful experiences that solve real-world challenges.
+      </p>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
         <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
           Join now

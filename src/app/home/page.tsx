@@ -1,7 +1,8 @@
 import { AppSidebar } from "@/components/app-sidebar"
 import { Hero } from "@/components/app-hero"
-import { Social } from "@/components/app-social"
+// import { Social } from "@/components/app-social"
 import { TimelineDemo } from "@/components/app-timeline"
+// import { Skills } from "@/components/app-skills"
 // import { TimelineDemo } from "@/components/app-timeline"
 // import { NavActions } from "@/components/nav-actions"
 // import {
@@ -50,9 +51,10 @@ export default function Home() {
           <div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
           <div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
         </div> */}
-        <Social></Social>
+        {/* <Social></Social> */}
         <Hero></Hero>
         <TimelineDemo></TimelineDemo>
+        {/* <Skills></Skills> */}
         <br />
         <br />
         <br />

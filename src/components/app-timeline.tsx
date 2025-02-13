@@ -5,7 +5,7 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "Mid 2017",
+      title: "2017",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">An International Education</p>
@@ -28,25 +28,25 @@ export function TimelineDemo() {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div> */}
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+          {/* <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
           Relocating to Malaysia was a transformative experience. Immersed in a new culture, I forged lasting friendships, expanded my worldview, and gained invaluable knowledge in the field of software engineering.
-          </p>
+          </p> */}
         </div>
       ),
     },
+    // {
+    //   title: "Early 2020",
+    //   content: (
+    //     <div>
+    //       <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Navigating Uncharted Waters</p>
+    //       <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
+    //         The onset of the COVID-19 pandemic forced an unexpected return to Indonesia. Undeterred, I adapted to the situation and successfully completed my final semester of studies remotely.
+    //       </p>
+    //     </div>
+    //   ),
+    // },
     {
-      title: "Early 2020",
-      content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Navigating Uncharted Waters</p>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            The onset of the COVID-19 pandemic forced an unexpected return to Indonesia. Undeterred, I adapted to the situation and successfully completed my final semester of studies remotely.
-          </p>
-        </div>
-      ),
-    },
-    {
-        title: "Late 2020",
+        title: "2020",
         content: (
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A First Taste of Industry</p>
@@ -73,13 +73,13 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            In late 2021, I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
+            I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
           </p>
         </div>
       ),
     },
     {
-      title: "Late 2023",
+      title: "2023",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
@@ -90,7 +90,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Late 2024",
+      title: "2024",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
@@ -112,6 +112,7 @@ export function TimelineDemo() {
       ),
     },
   ];
+
   return (
     <div className="w-full">
       <Timeline data={data} />
