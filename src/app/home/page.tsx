@@ -2,7 +2,9 @@ import { AppSidebar } from "@/components/app-sidebar"
 import { Hero } from "@/components/app-hero"
 // import { Social } from "@/components/app-social"
 import { TimelineDemo } from "@/components/app-timeline"
-// import { Skills } from "@/components/app-skills"
+import { Skills } from "@/components/app-skills"
+// import { Tools } from "@/components/app-tools"
+// import { Expertise } from "@/components/app-expertise"
 // import { TimelineDemo } from "@/components/app-timeline"
 // import { NavActions } from "@/components/nav-actions"
 // import {
@@ -54,7 +56,7 @@ export default function Home() {
         {/* <Social></Social> */}
         <Hero></Hero>
         <TimelineDemo></TimelineDemo>
-        {/* <Skills></Skills> */}
+        <Skills></Skills>
         <br />
         <br />
         <br />

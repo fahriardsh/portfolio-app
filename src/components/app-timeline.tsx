@@ -8,9 +8,9 @@ export function TimelineDemo() {
       title: "2017",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">An International Education</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Malaysia</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            My journey began when I graduated from high school in Jakarta, Indonesia. Inspired by a desire for new challenges and broader horizons, I made the significant decision to pursue my undergraduate degree abroad, setting my sights on Malaysia.
+            Inspired by a desire for new challenges and broader horizons, I made the significant decision to pursue my undergraduate degree abroad, setting my sights on Malaysia.
           </p>
           {/* <div className="grid grid-cols-2 gap-4">
             <Image
@@ -73,7 +73,7 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice during my studies, a testament to my dedication and commitment to academic excellence.
+            I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice, a testament to my dedication and commitment to academic excellence.
           </p>
         </div>
       ),
@@ -84,7 +84,7 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            Driven by a desire for continuous growth and specialized expertise, I made the difficult decision to resign from my position at Dreta Teknologi Solusindo and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
+            Driven by a desire for continuous growth and specialized expertise, I made a decision to resign from my position and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
           </p>
         </div>
       ),

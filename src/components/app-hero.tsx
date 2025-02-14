@@ -25,15 +25,23 @@ export function Hero() {
         Driven by innovation and a passion for technology...
       </p>
       <TypewriterEffectSmooth words={words} />
-      <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base pb-3" style={{textAlign: "center", width: "54rem", paddingBottom: "3rem"}}>
-        a creative technologist with a knack for blending design and functionality. I am driven by a desire to build impactful experiences that solve real-world challenges.
-      </p>
+      <div className="max-w-3xl mx-auto pb-10 px-4 md:px-8 lg:px-10 text-center">
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+          a creative technologist with a knack for blending design and functionality. I&apos;m driven by a desire to build impactful experiences that solve real-world challenges.
+        </p>
+      </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-          Join now
+        <button
+          className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          onClick={() => window.open('https://www.linkedin.com/in/fahri-pratama-ardiansyah/', '_blank', 'noopener,noreferrer')}
+        >
+          LinkedIn
         </button>
-        <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-          Signup
+        <button 
+          className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          onClick={() => window.open('https://drive.google.com/file/d/1wjXOyPJrx6_O9YFk6mDwebTvDzMGhyK3/view?usp=sharing', '_blank', 'noopener,noreferrer')}
+        >
+          Online CV
         </button>
       </div>
     </div>

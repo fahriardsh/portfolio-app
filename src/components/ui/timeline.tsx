@@ -51,7 +51,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           {isExpanded ? "See Less" : "See More"}
         </button> */}
 
-        <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 text-center">
+        <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10 text-center">
           <h2 className="text-lg md:text-4xl mb-4 text-black font-bold dark:text-white">
             The Journey: A Continuous Quest for Knowledge
           </h2>
