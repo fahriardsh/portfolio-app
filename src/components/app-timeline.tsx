@@ -2,7 +2,7 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-export function TimelineDemo() {
+export function Journey() {
   const data = [
     {
       title: "2017",
@@ -10,7 +10,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Malaysia</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            Inspired by a desire for new challenges and broader horizons, I made the significant decision to pursue my undergraduate degree abroad, setting my sights on Malaysia.
+            Driven by a thirst for new challenges, I chose to pursue my undergraduate degree abroad, with Malaysia as my destination.
+            {/* Inspired by a desire for new challenges and broader horizons, I made the significant decision to pursue my undergraduate degree abroad, setting my sights on Malaysia. */}
           </p>
           {/* <div className="grid grid-cols-2 gap-4">
             <Image
@@ -51,7 +52,8 @@ export function TimelineDemo() {
           <div>
             <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A First Taste of Industry</p>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-              Fueled by a desire to apply my newfound knowledge, I secured an internship at Dreta Teknologi Solusindo. This hands-on experience proved to be incredibly enriching, providing me with a comprehensive introduction to the world of software development.
+              {/* Fueled by a desire to apply my newfound knowledge, I secured an internship at Dreta Teknologi Solusindo. This hands-on experience proved to be incredibly enriching, providing me with a comprehensive introduction to the world of software development. */}
+              Fueled by a desire to apply my newfound knowledge, I secured an internship at Dreta Teknologi Solusindo, gaining valuable hands-on experience in software development.
             </p>
           </div>
         ),
@@ -62,7 +64,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Full-Time Immersion</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            My internship at Dreta Teknologi Solusindo transitioned into a full-time position. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles.
+            {/* My internship at Dreta Teknologi Solusindo transitioned into a full-time position. Working on real-world projects and collaborating with experienced professionals accelerated my learning curve and provided invaluable insights into the practical application of software engineering principles. */}
+            My internship at Dreta Teknologi Solusindo turned into a full-time role, where working on real projects accelerated my learning and deepened my understanding of software engineering.
           </p>
         </div>
       ),
@@ -73,7 +76,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Foundation of Knowledge</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice, a testament to my dedication and commitment to academic excellence.
+            {/* I proudly graduated from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information Technology, majoring in Software Engineering. I was honored to have achieved Dean&apos;s List recognition twice, a testament to my dedication and commitment to academic excellence. */}
+            I graduated with a Bachelor of Science in Information Technology, majoring in Software Engineering, from Universiti Utara Malaysia (UUM), earning Dean&apos;s List recognition twice.
           </p>
         </div>
       ),
@@ -84,7 +88,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            Driven by a desire for continuous growth and specialized expertise, I made a decision to resign from my position and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia.
+            {/* Driven by a desire for continuous growth and specialized expertise, I made a decision to resign from my position and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia. */}
+            Seeking foro continuous growth, I embark on a new chapter in my academic journey: pursuing a Master&apos;s degree.
           </p>
         </div>
       ),
@@ -95,7 +100,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">A Year of Growth and Resilience</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            My year of Master&apos;s studies in Asia Pacific University (APU) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals.
+            {/* My year of Master&apos;s studies in Asia Pacific University (APU) was a rollercoaster of emotions, filled with joy, challenge, hardship, and even moments of frustration. However, the experience proved to be immensely rewarding, pushing my analytical skills to new heights in Data Science and Business Analytics, and connecting me with a vibrant community of professionals. */}
+            One year at Asia Pacific University was both emotionally and intellectually challenging, yet a rewarding journey that sharpened my skills in Data Science and Business Analytics, while connecting me with a vibrant professional community.
           </p>
         </div>
       ),
@@ -106,7 +112,8 @@ export function TimelineDemo() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">The Future Awaits</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
-            As I look ahead to 2025, I am eager to leverage my academic achievements, industry experience, and international perspective to contribute and make a positive impact on the world.
+            As I look ahead to 2025, I&apos;m eager to apply my academic achievements, industry experience, and global perspective to make a positive impact.
+            {/* As I look ahead to 2025, I am eager to leverage my academic achievements, industry experience, and international perspective to contribute and make a positive impact on the world. */}
           </p>
         </div>
       ),
@@ -114,7 +121,7 @@ export function TimelineDemo() {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full py-10">
       <Timeline data={data} />
     </div>
   );

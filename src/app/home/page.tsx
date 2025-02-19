@@ -1,7 +1,8 @@
 import { AppSidebar } from "@/components/app-sidebar"
 import { Hero } from "@/components/app-hero"
 // import { Social } from "@/components/app-social"
-import { TimelineDemo } from "@/components/app-timeline"
+import { Journey } from "@/components/app-timeline"
+import { Expertise } from "@/components/app-expertise"
 import { Skills } from "@/components/app-skills"
 // import { Tools } from "@/components/app-tools"
 // import { Expertise } from "@/components/app-expertise"
@@ -55,8 +56,9 @@ export default function Home() {
         </div> */}
         {/* <Social></Social> */}
         <Hero></Hero>
-        <TimelineDemo></TimelineDemo>
+        <Expertise></Expertise>
         <Skills></Skills>
+        <Journey></Journey>
         <br />
         <br />
         <br />
