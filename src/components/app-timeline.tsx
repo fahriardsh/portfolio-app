@@ -121,7 +121,7 @@ export function Journey() {
   ];
 
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-20">
       <Timeline data={data} />
     </div>
   );

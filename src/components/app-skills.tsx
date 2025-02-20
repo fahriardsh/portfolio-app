@@ -7,7 +7,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 export function Skills() {
   return (
-    <div className="py-10">
+    <div className="py-20">
       <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10 text-center">
         <h2 className="text-3xl md:text-5xl mb-4 text-black font-bold dark:text-white">
           Core Languages & Technologies
