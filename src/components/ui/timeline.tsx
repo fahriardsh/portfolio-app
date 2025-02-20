@@ -52,7 +52,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </button> */}
 
         <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10 text-center">
-          <h2 className="text-lg md:text-4xl mb-4 text-black font-bold dark:text-white">
+          <h2 className="text-3xl md:text-5xl mb-4 text-black font-bold dark:text-white">
             The Journey: A Continuous Quest for Knowledge
           </h2>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">

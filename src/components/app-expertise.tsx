@@ -8,14 +8,14 @@ export function Expertise() {
   return (
     <div className="py-10">
         <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10 text-center">
-            <h2 className="text-lg md:text-4xl mb-4 text-black font-bold dark:text-white">
+            <h2 className="text-3xl md:text-5xl mb-4 text-black font-bold dark:text-white">
             Area of Expertise
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
             Leveraging advanced technical skills and data-driven insights to build innovative solutions.
             </p>
         </div>
-        <ul className="grid grid-cols-1 gap-4 xl:grid-cols-2 px-20 py-10">
+        <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2 px-20 py-10">
             <GridItem1
             // area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
                 icon={<FolderCode className="h-4 w-4 text-black dark:text-neutral-400" />}
