@@ -34,7 +34,7 @@ export function Skills() {
         <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
             src="/img/vscode.png"
-            alt="startup template"
+            alt="vscode"
             width={500}
             height={500}
             className="w-full h-8"
@@ -43,7 +43,7 @@ export function Skills() {
         <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
             src="/img/gcolab.png"
-            alt="startup template"
+            alt="gcolab"
             width={500}
             height={500}
             className="w-full h-8"
@@ -52,7 +52,7 @@ export function Skills() {
         <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
             src="/img/tableau.png"
-            alt="startup template"
+            alt="tableau"
             width={500}
             height={500}
             className="w-full h-6"
@@ -61,7 +61,7 @@ export function Skills() {
         <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
             src="/img/figma.png"
-            alt="startup template"
+            alt="figma"
             width={500}
             height={500}
             className="w-full h-8"
@@ -70,7 +70,7 @@ export function Skills() {
         <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
             src="/img/rstudio.png"
-            alt="startup template"
+            alt="rstudio"
             width={500}
             height={500}
             className="w-full h-7"
@@ -78,13 +78,22 @@ export function Skills() {
         </button>
         {/* <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
           <Image
-            src="/img/github.png"
-            alt="startup template"
+            src="/img/dbeaver.png"
+            alt="dbeaver"
             width={500}
             height={500}
             className="w-full h-8"
           />
         </button> */}
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400">
+          <Image
+            src="/img/dbeaver.png"
+            alt="dbeaver"
+            width={500}
+            height={500}
+            className="w-full h-8"
+          />
+        </button>
       </div>
     </div>
     
