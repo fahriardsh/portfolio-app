@@ -30,50 +30,50 @@ export function Skills() {
           </CardItem>
         </CardBody>
       </CardContainer>
-      <div className="p-10" style={{textAlign: "center"}}>
-        <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
+      <div className="grid grid-cols-3 gap-2 lg:grid-cols-6 items-center justify-center py-10">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
           <Image
             src="/img/vscode.png"
             alt="vscode"
             width={500}
             height={500}
-            className="w-full h-8"
+            className="w-auto h-10"
           />
         </button>
-        <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
           <Image
             src="/img/gcolab.png"
             alt="gcolab"
             width={500}
             height={500}
-            className="w-full h-8"
+            className="w-auto h-12"
           />
         </button>
-        <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
           <Image
             src="/img/tableau.png"
             alt="tableau"
             width={500}
             height={500}
-            className="w-full h-6"
+            className="w-auto h-7"
           />
         </button>
-        <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
           <Image
             src="/img/figma.png"
             alt="figma"
             width={500}
             height={500}
-            className="w-full h-8"
+            className="w-auto h-10"
           />
         </button>
-        <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
           <Image
             src="/img/rstudio.png"
             alt="rstudio"
             width={500}
             height={500}
-            className="w-full h-7"
+            className="w-auto h-8"
           />
         </button>
         {/* <button className="rounded-lg bg-[#fefefe] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#fefefe] transition-colors duration-200 p-4">
@@ -82,16 +82,16 @@ export function Skills() {
             alt="dbeaver"
             width={500}
             height={500}
-            className="w-full h-8"
+            className="h-8"
           />
         </button> */}
-        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400">
+        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/dbeaver.png"
             alt="dbeaver"
             width={500}
             height={500}
-            className="w-full h-8"
+            className="w-auto h-9"
           />
         </button>
       </div>
