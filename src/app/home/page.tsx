@@ -4,6 +4,7 @@ import { Hero } from "@/components/app-hero"
 import { Journey } from "@/components/app-timeline"
 import { Expertise } from "@/components/app-expertise"
 import { Skills } from "@/components/app-skills"
+import { Project } from "@/components/app-project"
 // import { Tools } from "@/components/app-tools"
 // import { Expertise } from "@/components/app-expertise"
 // import { TimelineDemo } from "@/components/app-timeline"
@@ -56,6 +57,7 @@ export default function Home() {
         </div> */}
         {/* <Social></Social> */}
         <Hero></Hero>
+        <Project></Project>
         <Expertise></Expertise>
         <Skills></Skills>
         <Journey></Journey>
