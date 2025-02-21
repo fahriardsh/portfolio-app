@@ -35,25 +35,25 @@ export function Hero() {
       {/* <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 lg:grid-cols-2"> */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
         <button 
-          className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          className="grid shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('https://drive.google.com/file/d/1wjXOyPJrx6_O9YFk6mDwebTvDzMGhyK3/view?usp=sharing', '_blank', 'noopener,noreferrer')}
         >
           Resume
         </button>
         <button
-          className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          className="grid px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('https://www.linkedin.com/in/fahri-pratama-ardiansyah/', '_blank', 'noopener,noreferrer')}
         >
           LinkedIn
         </button>
         <button
-          className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          className="grid px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('https://github.com/fahriardsh', '_blank', 'noopener,noreferrer')}
         >
           Github
         </button>
         <button
-          className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+          className="grid px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('https://www.kaggle.com/guardiansbarrier', '_blank', 'noopener,noreferrer')}
         >
           Kaggle

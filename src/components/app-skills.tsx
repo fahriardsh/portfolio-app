@@ -31,7 +31,7 @@ export function Skills() {
         </CardBody>
       </CardContainer>
       <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 xl:px-40 lg:px-20 gap-2 items-center justify-center py-10 px-0">
-        <button className="px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
+        <button className="grid px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/vscode.png"
             alt="vscode"
@@ -40,7 +40,7 @@ export function Skills() {
             className="w-auto h-10"
           />
         </button>
-        <button className="px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
+        <button className="grid px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/gcolab.png"
             alt="gcolab"
@@ -49,7 +49,7 @@ export function Skills() {
             className="w-auto h-12"
           />
         </button>
-        <button className="px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
+        <button className="grid px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/tableau.png"
             alt="tableau"
@@ -58,7 +58,7 @@ export function Skills() {
             className="w-auto h-7"
           />
         </button>
-        <button className="px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
+        <button className="grid px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/figma.png"
             alt="figma"
@@ -67,7 +67,7 @@ export function Skills() {
             className="w-auto h-10"
           />
         </button>
-        <button className="px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400"style={{justifyItems: "center"}}>
+        <button className="grid px-2 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/rstudio.png"
             alt="rstudio"
@@ -85,7 +85,7 @@ export function Skills() {
             className="h-8"
           />
         </button> */}
-        <button className="px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
+        <button className="grid px-6 py-2 bg-transparent border-none transform hover:-translate-y-1 transition duration-400" style={{justifyItems: "center"}}>
           <Image
             src="/img/dbeaver.png"
             alt="dbeaver"
