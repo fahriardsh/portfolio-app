@@ -222,6 +222,7 @@ export function Project() {
             <PinContainer
                 title="Text Highlighter and Dictionary Search"
                 href=""
+                // target="_blank"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-green-500">Academic</Badge>
