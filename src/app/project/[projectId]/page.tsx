@@ -116,7 +116,11 @@ type Params = Promise<{ projectId: string }>
 
 async function getProject(projectId: string): Promise<Project | undefined> {
     try {
-        const res = await fetch(`/data/data.json`, { // Relative URL
+        // Get the base URL of the application
+        const baseUrl = process.env.NODE_ENV === 'development'
+            ? 'http://localhost:3000/'  // Your development URL
+            : 'https://fahriardsh.vercel.app'; // Leave empty in production (it will be relative)
+        const res = await fetch(baseUrl + `/data/data.json`, { // Relative URL
             cache: 'no-store',
         });
 
