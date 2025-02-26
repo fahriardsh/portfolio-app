@@ -5,7 +5,7 @@
       "title": "Sentiment Analysis and Prediction on Indonesian Presidential Candidature", 
       "description": "This project employed sentiment analysis to predict public opinion regarding Indonesian presidential candidates using Twitter/X data. The study compared the performance of Logistic Regression, LSTM, and BERT models, finding that BERT consistently delivered the highest accuracy after addressing class imbalance and fine-tuning. The best-performing BERT model was then integrated into a web application enabling real-time sentiment analysis of text, offering valuable insights into public sentiment trends and demonstrating the practical application of advanced NLP techniques for informed electoral understanding.", 
       "responsibility": ["Responsible for all aspects of the project"],
-      "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
+      "tools":["Python", "Flask", "VSCode", "Google Colab", "Github"],
       "images":[
         {
           "name": "candidate1",
@@ -49,7 +49,7 @@
     { 
       "id": "pQ1vR5sT8j", 
       "title": "Service Orchestration", 
-      "description": "This project delivers a comprehensive solution for rapid network issue resolution and proactive service management. It provides real-time visibility into network health, automated root cause analysis, and proactive alerting. The system quantifies service impact and potential revenue loss, integrates with external tools for seamless data sharing, and incorporates robust data integrity checks, accessible incident reporting, and secure user management. This enables faster problem identification, improved network stability, and informed decision-making.", 
+      "description": "Service Orchestration (SOC) delivers a comprehensive solution for rapid network issue resolution and proactive service management at Telkomsel. It provides real-time visibility into network health, automated root cause analysis, and proactive alerting. The system quantifies service impact and potential revenue loss, integrates with external tools for seamless data sharing, and incorporates robust data integrity checks, accessible incident reporting, and secure user management. This enables faster problem identification, improved network stability, and informed decision-making.", 
       "responsibility": ["UI/UX Design", "Frontend Development", "SQL Queries"],
       "tools":["HTML", "CSS", "Javascript", "MySQL", "NodeJS", "VSCode", "DBeaver", "Figma"],
       "images":[
@@ -108,81 +108,83 @@
     },
     { 
       "id": "zYuXwV6CbA", 
-      "title": "Sentiment Analysis and Prediction on Indonesian Presidential Candidature", 
-      "description": "The primary goal is to perform sentiment prediction and assess different models to determine the most effective method for analyzing public sentiment surrounding the 2024 Indonesian presidential election. The study compared several sentiment prediction models, including LR, LSTM, and BERT. Each model used customized text-processing techniques to optimize performance. Class balancing methods were applied to address dataset imbalances where specific sentiment categories dominated, ensuring fair and unbiased predictions. The most effective model was selected and implemented through rigorous testing into a system capable of accurately predicting sentiments.", 
-      "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
+      "title": "Adidas Sales Analysis and Recommendation", 
+      "description": "The project aims to optimize sales strategies and improve overall business performance. The core objectives include increasing sales and profitability by analyzing unit sales data for each product category. The project will also focus on enhancing state-level performance by studying states exhibiting strong sales and profit performance, identifying best practices to replicate. Finally, the analysis will inform the development of future retail strategies by determining the most suitable sales methods, comparing the effectiveness of offline versus online channels to optimize resource allocation.", 
+      "responsibility": ["Responsible for all aspects of the project"],
+      "tools":["Tableau"],
       "images":[
         {
-          "name": "candidate1",
+          "name": "adidas1",
           "path":
-            "/project/candidate1.png"
+            "/project/adidas1.png"
         },
         {
-          "name": "candidate2",
+          "name": "adidas2",
           "path":
-            "/project/candidate2.png"
+            "/project/adidas2.png"
         },
         {
-          "name": "candidate3",
+          "name": "adidas3",
           "path":
-            "/project/candidate3.png"
+            "/project/adidas3.png"
+        },
+        {
+          "name": "adidas4",
+          "path":
+            "/project/adidas4.png"
         }
       ],
       "link":[
         {
           "name": "Dataset",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset"
         },
         {
-          "name": "EDA",
+          "name": "Tableau",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "Report",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://public.tableau.com/app/profile/fahri.aradiansyah/viz/AdidasSales_17180935472090/Dashboard"
         }
       ]
     },
     { 
       "id": "dEs4F5gHiJ", 
-      "title": "Sentiment Analysis and Prediction on Indonesian Presidential Candidature", 
-      "description": "The primary goal is to perform sentiment prediction and assess different models to determine the most effective method for analyzing public sentiment surrounding the 2024 Indonesian presidential election. The study compared several sentiment prediction models, including LR, LSTM, and BERT. Each model used customized text-processing techniques to optimize performance. Class balancing methods were applied to address dataset imbalances where specific sentiment categories dominated, ensuring fair and unbiased predictions. The most effective model was selected and implemented through rigorous testing into a system capable of accurately predicting sentiments.", 
-      "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
+      "title": "DTS Company Profile", 
+      "description": "The Dreta Teknologi Solusindo (DTS) Company Profile project creates a concise and compelling overview of DTS, showcasing its core values, expertise, and commitment to client success. The profile outlines its key service offerings, and builds credibility through project case studies and testimonials. Ultimately, the profile serves as a powerful marketing tool, attracting new clients, partners, and talent by clearly communicating DTS's value proposition and track record.", 
+      "responsibility": ["Responsible for all aspects of the project"],
+      "tools":["HTML", "CSS", "Javascript"],
       "images":[
         {
-          "name": "candidate1",
+          "name": "dts1",
           "path":
-            "/project/candidate1.png"
+            "/project/dts1.png"
         },
         {
-          "name": "candidate2",
+          "name": "dts2",
           "path":
-            "/project/candidate2.png"
+            "/project/dts2.png"
         },
         {
-          "name": "candidate3",
+          "name": "dts3",
           "path":
-            "/project/candidate3.png"
+            "/project/dts3.png"
+        },
+        {
+          "name": "dts4",
+          "path":
+            "/project/dts4.png"
         }
       ],
       "link":[
         {
           "name": "Dataset",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset"
         },
         {
-          "name": "EDA",
+          "name": "Tableau",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "Report",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://public.tableau.com/app/profile/fahri.aradiansyah/viz/AdidasSales_17180935472090/Dashboard"
         }
       ]
     },

@@ -184,8 +184,8 @@ export function Project() {
                 </div>
             </PinContainer>
             <PinContainer
-                title="Sales Analysis and Recommendations"
-                href=""
+                title="Adidas Sales Analysis and Recommendations"
+                href="/project/zYuXwV6CbA"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-green-500">Academic</Badge>
@@ -193,7 +193,7 @@ export function Project() {
                     Sales Analysis and Recommendations
                 </h3>
                 <Image
-                    src="/project/adidas.png"
+                    src="/project/adidas1.png"
                     height="700"
                     width="700"
                     className="h-auto object-cover rounded-xl"
@@ -202,8 +202,8 @@ export function Project() {
                 </div>
             </PinContainer>
             <PinContainer
-                title="DTS"
-                href=""
+                title="DTS Company Profile"
+                href="/project/dEs4F5gHiJ"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-blue-500">Professional</Badge>
@@ -211,7 +211,7 @@ export function Project() {
                     DTS Company Profile
                 </h3>
                 <Image
-                    src="/project/dts.png"
+                    src="/project/dts1.png"
                     height="700"
                     width="700"
                     className="h-auto object-cover rounded-xl"
