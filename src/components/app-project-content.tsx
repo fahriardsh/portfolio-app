@@ -73,26 +73,26 @@ export function ProjectContent(data: any) {
             </WobbleCard>
             <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-700 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
                 <div className="w-full">
-                <h2 className="text-left text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                    Screenshots of the project
-                </h2>
-                {/* <p className="mt-4 text-left  text-base/6 text-neutral-200">
-                    With over 100,000 mothly active bot users, Gippity AI is the most
-                    popular AI platform for developers.
-                </p> */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-                    {project.images.map((image, index: number) => (
-                        <div style={{margin: "auto"}} key={index}>
-                            <Image
-                            src={image.path}
-                            height="800"
-                            width="800"
-                            className="h-auto object-cover rounded-xl"
-                            alt="thumbnail"
-                            />  
-                        </div>
-                    ))} 
-                </div>
+                    <h2 className="text-left text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                        Screenshots of the project
+                    </h2>
+                    {/* <p className="mt-4 text-left  text-base/6 text-neutral-200">
+                        With over 100,000 mothly active bot users, Gippity AI is the most
+                        popular AI platform for developers.
+                    </p> */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+                        {project.images.map((image, index: number) => (
+                            <div style={{margin: "auto"}} key={index}>
+                                <Image
+                                src={image.path}
+                                height="800"
+                                width="800"
+                                className="h-auto object-cover rounded-xl"
+                                alt="thumbnail"
+                                />  
+                            </div>
+                        ))} 
+                    </div>
                 </div>
             </WobbleCard>
         </div>

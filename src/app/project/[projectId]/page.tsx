@@ -24,7 +24,7 @@ async function getProject(projectId: string): Promise<Project | undefined> {
   try {
     // Get the base URL of the application
     const baseUrl = process.env.NODE_ENV === 'development'
-      ? 'http://localhost:3000'  // Your development URL
+      ? 'https://fahriardsh.vercel.app/'  // Your development URL
       : ''; // Leave empty in production (it will be relative)
 
     const jsonUrl = `${baseUrl}/data/data.json`;
