@@ -177,14 +177,9 @@
       ],
       "link":[
         {
-          "name": "Dataset",
+          "name": "Live",
           "path":
-            "https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset"
-        },
-        {
-          "name": "Tableau",
-          "path":
-            "https://public.tableau.com/app/profile/fahri.aradiansyah/viz/AdidasSales_17180935472090/Dashboard"
+            "https://www.dreta-tech.com/public/"
         }
       ]
     },
