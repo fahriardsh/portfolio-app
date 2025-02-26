@@ -78,43 +78,33 @@
     },
     { 
       "id": "kLm0N3fGhI", 
-      "title": "Sentiment Analysis and Prediction on Indonesian Presidential Candidature", 
-      "description": "The primary goal is to perform sentiment prediction and assess different models to determine the most effective method for analyzing public sentiment surrounding the 2024 Indonesian presidential election. The study compared several sentiment prediction models, including LR, LSTM, and BERT. Each model used customized text-processing techniques to optimize performance. Class balancing methods were applied to address dataset imbalances where specific sentiment categories dominated, ensuring fair and unbiased predictions. The most effective model was selected and implemented through rigorous testing into a system capable of accurately predicting sentiments.", 
-      "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
+      "title": "TM NGOSS NGT AI", 
+      "description": "Telekom Malaysia's Next Generation Operations Support Service (TM NGOSS) project, incorporating Next Generation Transport (NGT) and Artificial Intelligence (AI), aims to revolutionize network management and enhance customer satisfaction. The project achieves this by correlating alarms network-wide to identify root causes, dramatically reducing alarm volume. Core components such as root-cause analysis, automation, and service impact analysis contribute to a significant reduction in problem resolution time – exceeding 50%. This results in faster, more accurate fixes, while proactive customer communication improves service quality and the overall customer experience. The future-proof NGOSS framework ensures the solution's long-term adaptability and value, evolving alongside the network to meet future challenges", 
+      "responsibility": ["UI/UX Design", "Frontend Development"],
+      "tools":["HTML", "CSS", "Typescript", "ReactJS", "Grafana", "VSCode", "Figma"],
       "images":[
         {
-          "name": "candidate1",
+          "name": "tm1",
           "path":
-            "/project/candidate1.png"
+            "/project/tm1.png"
         },
         {
-          "name": "candidate2",
+          "name": "tm2",
           "path":
-            "/project/candidate2.png"
+            "/project/tm2.png"
         },
         {
-          "name": "candidate3",
+          "name": "tm3",
           "path":
-            "/project/candidate3.png"
+            "/project/tm3.png"
+        },
+        {
+          "name": "tm4",
+          "path":
+            "/project/tm4.png"
         }
       ],
-      "link":[
-        {
-          "name": "Dataset",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "EDA",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "Report",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        }
-      ]
+      "link": null
     },
     { 
       "id": "zYuXwV6CbA", 

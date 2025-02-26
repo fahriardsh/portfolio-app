@@ -166,16 +166,16 @@ export function Project() {
                 </div>
             </PinContainer>
             <PinContainer
-                title="Performance and Fault Management Dashboard"
-                href=""
+                title="TM NGOSS NGT A&I"
+                href="/project/kLm0N3fGhI"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-blue-500">Professional</Badge>
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-black">
-                    Performance and Fault Management Dashboard
+                    TM NGOSS NGT A&I
                 </h3>
                 <Image
-                    src="/project/tm.png"
+                    src="/project/tm1.png"
                     height="700"
                     width="700"
                     className="h-auto object-cover rounded-xl"
