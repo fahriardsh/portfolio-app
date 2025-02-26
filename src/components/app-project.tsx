@@ -9,7 +9,7 @@ export function Project() {
     <div className="py-20">
         <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10 text-center">
             <h2 className="text-3xl md:text-5xl mb-4 text-black font-bold dark:text-white">
-            Project(s)
+            Projects
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
             Showcasing Expertise and Delivering Measurable Results
@@ -131,7 +131,7 @@ export function Project() {
         {/* <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-20 xl:px-40 gap-x-10 gap-y-10 w-full flex items-center justify-center"> */}
             <PinContainer
                 title="Sentiment Analysis and Prediction on Indonesian Presidential Candidature"
-                href=""
+                href="/project/a7B2xYz9Wq"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-green-500">Academic</Badge>
@@ -139,7 +139,7 @@ export function Project() {
                     Sentiment Analysis and Prediction on Indonesian Presidential Candidature
                 </h3>
                 <Image
-                    src="/project/cp.png"
+                    src="/project/candidate3.png"
                     height="700"
                     width="700"
                     className="h-auto object-cover rounded-xl"
@@ -149,7 +149,7 @@ export function Project() {
             </PinContainer>
             <PinContainer
                 title="Service Orchestration"
-                href=""
+                href="/project/pQ1vR5sT8j"
             >
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
                 <Badge className="my-2 w-max bg-blue-500">Professional</Badge>
