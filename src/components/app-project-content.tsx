@@ -82,16 +82,15 @@ export function ProjectContent(data: any) {
                 </p> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
                     {project.images.map((image, index: number) => (
-                    <div style={{margin: "auto"}}>
-                        <Image
-                        key={index}
-                        src={image.path}
-                        height="800"
-                        width="800"
-                        className="h-auto object-cover rounded-xl"
-                        alt="thumbnail"
-                        />  
-                    </div>
+                        <div style={{margin: "auto"}} key={index}>
+                            <Image
+                            src={image.path}
+                            height="800"
+                            width="800"
+                            className="h-auto object-cover rounded-xl"
+                            alt="thumbnail"
+                            />  
+                        </div>
                     ))} 
                 </div>
                 </div>
