@@ -1,5 +1,5 @@
-// // app/project/[projectId]/page.tsx
-// // "use client";
+// app/project/[projectId]/page.tsx
+// "use client";
 
 // import React from 'react';
 // // import { Metadata } from 'next';
@@ -25,7 +25,7 @@
 //     // Get the base URL of the application
 //     const baseUrl = process.env.NODE_ENV === 'development'
 //       ? 'http://localhost:3000'  // Your development URL
-//       : 'https://fahriardsh.vercel.app/'; // Leave empty in production (it will be relative)
+//       : ''; // Leave empty in production (it will be relative)
 
 //     const jsonUrl = `${baseUrl}/data/data.json`;
 
@@ -95,69 +95,24 @@
 // }
 
 
-// // export function HeroParallaxDemo() {
-// //   return <HeroParallax products={products} />;
-// // }
-// // export const products = [
-// //   {
-// //     title: "Moonbeam",
-// //     link: "https://gomoonbeam.com",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
-// //   },
-// //   {
-// //     title: "Cursor",
-// //     link: "https://cursor.so",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-// //   },
-// //   {
-// //     title: "Rogue",
-// //     link: "https://userogue.com",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-// //   },
-
-// //   {
-// //     title: "Editorially",
-// //     link: "https://editorially.org",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-// //   },
-// //   {
-// //     title: "Editrix AI",
-// //     link: "https://editrix.ai",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-// //   },
-// //   {
-// //     title: "Pixel Perfect",
-// //     link: "https://app.pixelperfect.quest",
-// //     thumbnail:
-// //       "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-// //   },
-// // ];
-
-
-// app/project/[projectId]/page.tsx
 import React from 'react';
-import { ProjectContent } from "@/components/app-project-content";
-import { AppSidebar } from "@/components/app-sidebar";
+// import { Metadata } from 'next';
+import { ProjectContent } from "@/components/app-project-content"
+import { AppSidebar } from "@/components/app-sidebar"
 import {
-    SidebarInset,
-    SidebarProvider,
-    SidebarTrigger,
-} from "@/components/ui/sidebar";
+  SidebarInset,
+  SidebarProvider,
+  SidebarTrigger,
+} from "@/components/ui/sidebar"
 
 interface Project {
-    id: string;
-    title: string;
-    description: string;
-    images: any[];
+  id: string;
+  title: string;
+  description: string;
+  images: any[];
 }
 
-// Corrected Params type
-type Params = { projectId: string };
+type Params = Promise<{ projectId: string }>
 
 async function getProject(projectId: string): Promise<Project | undefined> {
     try {
@@ -180,8 +135,8 @@ async function getProject(projectId: string): Promise<Project | undefined> {
 }
 
 export async function generateMetadata(props: { params: Params }) {
-    const { projectId } = props.params;
-    const project = await getProject(projectId);
+  const { projectId } = await props.params;
+  const project = await getProject(projectId);
 
     if (!project) {
         return {
@@ -197,8 +152,12 @@ export async function generateMetadata(props: { params: Params }) {
 }
 
 export default async function ProjectDetailPage(props: { params: Params }) {
-    const { projectId } = props.params;
-    const project = await getProject(projectId);
+  const { projectId } = await props.params;
+  const project = await getProject(projectId);
+
+// export async function generateMetadata(props: { params: Params }) {
+//   const { projectId } = await props.params;
+//   const project = await getProject(projectId);
 
     if (!project) {
         return <div>Project not found</div>; // Handle the case where the project doesn't exist
