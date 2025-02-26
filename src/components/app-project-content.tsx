@@ -18,7 +18,7 @@ interface Project {
     id: string;
     title: string;
     description: string;
-    responsibility: string;
+    responsibility: string[];
     tools: string[];
     images: ProjectImage[];
     link: ProjectLink[];
@@ -31,21 +31,31 @@ export function ProjectContent(data: any) {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
             <WobbleCard
-                containerClassName="col-span-1 md:col-span-2 h-full bg-zinc min-h-[500px] lg:min-h-[300px]"
+                containerClassName="col-span-1 md:col-span-2 h-full bg-zinc min-h-[300px]"
                 className=""
             >
                 <div className="">
                 <h2 className="text-left text-base text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-neutral">
                     {project.title}
                 </h2>
-                <div className="flex flex-row flex-wrap gap-2 mt-4">
-                    {project.link.map((link, index: number) => (
+                <div className="flex flex-row flex-wrap gap-2 mt-2">
+                    {/* {project.link ? project.link.map((link, index: number) => (
                         <button
                             key={index}
                             className="grid px-3 py-1 bg-blue-500 text-white text-sm rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
                             onClick={() => window.open(link.path, '_blank', 'noopener,noreferrer')}
                             >
                         {link.name}
+                        </button>
+                        : null
+                    ))} */}
+                    {project.link && project.link.map((link, index) => (
+                        <button
+                            key={index} // Use a unique link ID if available, otherwise index
+                            className="grid px-3 py-1 bg-blue-500 text-white text-sm rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+                            onClick={() => window.open(link.path, '_blank', 'noopener,noreferrer')}
+                        >
+                            {link.name}
                         </button>
                     ))}
                 </div>
@@ -67,11 +77,21 @@ export function ProjectContent(data: any) {
                 <h2 className="text-left text-base text-md lg:text-xl font-semibold tracking-[-0.015em] text-blue-500">
                 Roles and Responsibility
                 </h2>
-                <p className="mt-2 text-left text-justify text-base/6 text-neutral-700">
+                {/* <p className="mt-2 text-left text-justify text-base/6 text-neutral-700">
                     {project.responsibility}
-                </p>
+                </p> */}
+                <ul className="list-disc pl-5 text-base/6 text-neutral-700">
+                    {project.responsibility.map((responsibility, index: number) => (
+                        <li className="" key={index}>{responsibility}</li>
+                    ))}
+                </ul>
+                {/* <ul className="list-disc pl-5">
+                    <li>UI/UX Design</li>
+                    <li>Frontend Development</li>
+                    <li>SQL Queries</li>
+                </ul> */}
             </WobbleCard>
-            <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-700 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+            <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-700 min-h-[500px]">
                 <div className="w-full">
                     <h2 className="text-left text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                         Screenshots of the project

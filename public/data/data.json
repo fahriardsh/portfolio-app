@@ -4,7 +4,7 @@
       "id": "a7B2xYz9Wq", 
       "title": "Sentiment Analysis and Prediction on Indonesian Presidential Candidature", 
       "description": "This project employed sentiment analysis to predict public opinion regarding Indonesian presidential candidates using Twitter/X data. The study compared the performance of Logistic Regression, LSTM, and BERT models, finding that BERT consistently delivered the highest accuracy after addressing class imbalance and fine-tuning. The best-performing BERT model was then integrated into a web application enabling real-time sentiment analysis of text, offering valuable insights into public sentiment trends and demonstrating the practical application of advanced NLP techniques for informed electoral understanding.", 
-      "responsibility": "Responsible for all aspects of this project, including data collection, preprocessing, model selection and implementation, model evaluation, and the development and deployment of the web-based system for real-time sentiment analysis.",
+      "responsibility": ["Responsible for all aspects of the project"],
       "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
       "images":[
         {
@@ -50,7 +50,8 @@
       "id": "pQ1vR5sT8j", 
       "title": "Service Orchestration", 
       "description": "This project delivers a comprehensive solution for rapid network issue resolution and proactive service management. It provides real-time visibility into network health, automated root cause analysis, and proactive alerting. The system quantifies service impact and potential revenue loss, integrates with external tools for seamless data sharing, and incorporates robust data integrity checks, accessible incident reporting, and secure user management. This enables faster problem identification, improved network stability, and informed decision-making.", 
-      "tools":["Python", "Python Libraries", "Flask", "VSCode", "Google Colab", "Github"],
+      "responsibility": ["UI/UX Design", "Frontend Development", "SQL Queries"],
+      "tools":["HTML", "CSS", "Javascript", "MySQL", "NodeJS", "VSCode", "DBeaver", "Figma"],
       "images":[
         {
           "name": "soc1",
@@ -73,23 +74,7 @@
             "/project/soc3.png"
         }
       ],
-      "link":[
-        {
-          "name": "Dataset",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "EDA",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        },
-        {
-          "name": "Report",
-          "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
-        }
-      ]
+      "link": null
     },
     { 
       "id": "kLm0N3fGhI", 
