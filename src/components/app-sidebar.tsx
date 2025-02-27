@@ -2,23 +2,13 @@
 
 import * as React from "react"
 import {
-  // AudioWaveform,
-  Blocks,
-  Calendar,
-  // Command,
-  Home,
-  Inbox,
-  MessageCircleQuestion,
-  Search,
-  Settings2,
-  Sparkles,
-  Trash2,
+  Home
 } from "lucide-react"
 
 import { NavFavorites } from "@/components/nav-favorites"
 import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
-import { NavWorkspaces } from "@/components/nav-workspaces"
+// import { NavSecondary } from "@/components/nav-secondary"
+// import { NavWorkspaces } from "@/components/nav-workspaces"
 // import { TeamSwitcher } from "@/components/team-switcher"
 import {
   Sidebar,
@@ -32,233 +22,119 @@ import { cn } from "@/lib/utils";
 
 // This is sample data.
 const data = {
-  // teams: [
-  //   {
-  //     name: "Acme Inc",
-  //     logo: Command,
-  //     plan: "Enterprise",
-  //   },
-  //   {
-  //     name: "Acme Corp.",
-  //     logo: AudioWaveform,
-  //     plan: "Startup",
-  //   },
-  //   {
-  //     name: "Evil Corp.",
-  //     logo: Command,
-  //     plan: "Free",
-  //   },
-  // ],
   navMain: [
     {
-      title: "Search",
-      url: "#",
-      icon: Search,
-    },
-    {
-      title: "Ask AI",
-      url: "#",
-      icon: Sparkles,
-    },
-    {
       title: "Home",
-      url: "#",
+      url: "/home",
       icon: Home,
-      isActive: true,
-    },
-    {
-      title: "Inbox",
-      url: "#",
-      icon: Inbox,
-      badge: "10",
-    },
-  ],
-  navSecondary: [
-    {
-      title: "Calendar",
-      url: "#",
-      icon: Calendar,
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-    },
-    {
-      title: "Templates",
-      url: "#",
-      icon: Blocks,
-    },
-    {
-      title: "Trash",
-      url: "#",
-      icon: Trash2,
-    },
-    {
-      title: "Help",
-      url: "#",
-      icon: MessageCircleQuestion,
-    },
+    }
   ],
   favorites: [
     {
-      name: "Project Management & Task Tracking",
-      url: "#",
-      emoji: "📊",
+      name: "Service Orchestration",
+      url: "/project/pQ1vR5sT8j",
+      emoji: "📔",
     },
     {
-      name: "Family Recipe Collection & Meal Planning",
-      url: "#",
-      emoji: "🍳",
+      name: "TM NGOSS NGT AI",
+      url: "/project/kLm0N3fGhI",
+      emoji: "⚡",
     },
     {
-      name: "Fitness Tracker & Workout Routines",
-      url: "#",
-      emoji: "💪",
+      name: "Power Management System",
+      url: "/project/xEa1F5sZiK",
+      emoji: "🔋",
     },
     {
-      name: "Book Notes & Reading List",
-      url: "#",
-      emoji: "📚",
+      name: "DTS Company Profile",
+      url: "/project/dEs4F5gHiJ",
+      emoji: "🏢",
     },
     {
-      name: "Sustainable Gardening Tips & Plant Care",
-      url: "#",
-      emoji: "🌱",
+      name: "Sentiment Analysis and Prediction on Indonesian Presidential Candidature",
+      url: "http://localhost:3000/project/a7B2xYz9Wq",
+      emoji: "🗳️",
     },
     {
-      name: "Language Learning Progress & Resources",
-      url: "#",
-      emoji: "🗣️",
+      name: "Adidas Sales Analysis and Recommendation",
+      url: "/project/zYuXwV6CbA",
+      emoji: "👟",
     },
     {
-      name: "Home Renovation Ideas & Budget Tracker",
-      url: "#",
-      emoji: "🏠",
+      name: "Text Highlighter and Dictionary Search",
+      url: "/project/o9PqRs2TuV",
+      emoji: "📖",
     },
     {
-      name: "Personal Finance & Investment Portfolio",
-      url: "#",
-      emoji: "💰",
+      name: "Air Pollution Forecasting",
+      url: "/project/f7PqAs2GfJ",
+      emoji: "💨",
     },
     {
-      name: "Movie & TV Show Watchlist with Reviews",
-      url: "#",
-      emoji: "🎬",
-    },
-    {
-      name: "Daily Habit Tracker & Goal Setting",
-      url: "#",
-      emoji: "✅",
+      name: "Telekom Churn Prediction",
+      url: "/project/g3PfBs3SfA",
+      emoji: "📡",
     },
   ],
-  workspaces: [
-    {
-      name: "Personal Life Management",
-      emoji: "🏠",
-      pages: [
-        {
-          name: "Daily Journal & Reflection",
-          url: "#",
-          emoji: "📔",
-        },
-        {
-          name: "Health & Wellness Tracker",
-          url: "#",
-          emoji: "🍏",
-        },
-        {
-          name: "Personal Growth & Learning Goals",
-          url: "#",
-          emoji: "🌟",
-        },
-      ],
-    },
-    {
-      name: "Professional Development",
-      emoji: "💼",
-      pages: [
-        {
-          name: "Career Objectives & Milestones",
-          url: "#",
-          emoji: "🎯",
-        },
-        {
-          name: "Skill Acquisition & Training Log",
-          url: "#",
-          emoji: "🧠",
-        },
-        {
-          name: "Networking Contacts & Events",
-          url: "#",
-          emoji: "🤝",
-        },
-      ],
-    },
-    {
-      name: "Creative Projects",
-      emoji: "🎨",
-      pages: [
-        {
-          name: "Writing Ideas & Story Outlines",
-          url: "#",
-          emoji: "✍️",
-        },
-        {
-          name: "Art & Design Portfolio",
-          url: "#",
-          emoji: "🖼️",
-        },
-        {
-          name: "Music Composition & Practice Log",
-          url: "#",
-          emoji: "🎵",
-        },
-      ],
-    },
-    {
-      name: "Home Management",
-      emoji: "🏡",
-      pages: [
-        {
-          name: "Household Budget & Expense Tracking",
-          url: "#",
-          emoji: "💰",
-        },
-        {
-          name: "Home Maintenance Schedule & Tasks",
-          url: "#",
-          emoji: "🔧",
-        },
-        {
-          name: "Family Calendar & Event Planning",
-          url: "#",
-          emoji: "📅",
-        },
-      ],
-    },
-    {
-      name: "Travel & Adventure",
-      emoji: "🧳",
-      pages: [
-        {
-          name: "Trip Planning & Itineraries",
-          url: "#",
-          emoji: "🗺️",
-        },
-        {
-          name: "Travel Bucket List & Inspiration",
-          url: "#",
-          emoji: "🌎",
-        },
-        {
-          name: "Travel Journal & Photo Gallery",
-          url: "#",
-          emoji: "📸",
-        },
-      ],
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: "Professional",
+  //     emoji: "💼",
+  //     pages: [
+  //       {
+  //         name: "Service Orchestration",
+  //         url: "/project/pQ1vR5sT8j",
+  //         emoji: "📔",
+  //       },
+  //       {
+  //         name: "TM NGOSS NGT AI",
+  //         url: "/project/kLm0N3fGhI",
+  //         emoji: "⚡",
+  //       },
+  //       {
+  //         name: "Power Management System",
+  //         url: "/project/xEa1F5sZiK",
+  //         emoji: "🔋",
+  //       },
+  //       {
+  //         name: "DTS Company Profile",
+  //         url: "/project/dEs4F5gHiJ",
+  //         emoji: "🏢",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     name: "Academic",
+  //     emoji: "🎓",
+  //     pages: [
+  //       {
+  //         name: "Sentiment Analysis and Prediction on Indonesian Presidential Candidature",
+  //         url: "http://localhost:3000/project/a7B2xYz9Wq",
+  //         emoji: "📔",
+  //       },
+  //       {
+  //         name: "Adidas Sales Analysis and Recommendation",
+  //         url: "/project/zYuXwV6CbA",
+  //         emoji: "📔",
+  //       },
+  //       {
+  //         name: "Text Highlighter and Dictionary Search",
+  //         url: "/project/o9PqRs2TuV",
+  //         emoji: "📔",
+  //       },
+  //       {
+  //         name: "Air Pollution Forecasting",
+  //         url: "/project/f7PqAs2GfJ",
+  //         emoji: "📔",
+  //       },
+  //       {
+  //         name: "Telekom Churn Prediction",
+  //         url: "/project/g3PfBs3SfA",
+  //         emoji: "📔",
+  //       },
+  //     ]
+  //   }
+  // ]
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -300,29 +176,14 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
           <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
             <div className="flex flex-row items-center space-x-4 z-10">
-              {/* <Image
-                height="100"
-                width="100"
-                alt="Avatar"
-                src="/manu.png"
-                className="h-10 w-10 rounded-full border-2 object-cover"
-              />
-              <div className="flex flex-col">
-                <p className="font-normal text-base text-gray-50 relative z-10">
-                  Manu Arora
-                </p>
-                <p className="text-sm text-gray-400">2 min read</p>
-              </div> */}
-              
             </div>
-            <div className="text content">
-              <h1 className="font-bold text-lg md:text-xl text-gray-50 relative z-10 text-center">
+            <div className="text content text-center">
+              <h1 className="font-bold text-lg md:text-xl text-gray-50 relative z-10">
                 Fahri Pratama Ardiansyah
               </h1>
-              {/* <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                Card with Author avatar, complete name and time to read - most
-                suitable for blogs.
-              </p> */}
+              <p className="font-normal text-sm text-gray-50 relative z-10 my-2">
+                Jakarta, Indonesia
+              </p>
             </div>
           </div>
         </div>
@@ -330,8 +191,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavFavorites favorites={data.favorites} />
-        <NavWorkspaces workspaces={data.workspaces} />
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
+        {/* <NavWorkspaces workspaces={data.projects} /> */}
+        {/* <NavSecondary items={data.navSecondary} className="mt-auto" /> */}
       </SidebarContent>
       <SidebarRail />
     </Sidebar>

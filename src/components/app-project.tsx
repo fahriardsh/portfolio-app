@@ -54,7 +54,7 @@ export function Project() {
                         href={`/project/${project.id}`}
 
                     >
-                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[18rem] ">
+                        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[19rem] ">
                             <Badge className={`my-2 w-max ${project.badgeInfo.badgeColor}`}>{project.badgeInfo.badge}</Badge>
                             <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-black">
                                 {project.title}
@@ -63,7 +63,7 @@ export function Project() {
                                 src={project.images[0].path}
                                 height="700"
                                 width="700"
-                                className="h-auto object-cover rounded-xl"
+                                className="h-auto object-cover rounded-xl m-auto"
                                 alt="thumbnail"
                             />
                         </div>

@@ -1,28 +1,28 @@
 "use client"
 
-import {
-  ArrowUpRight,
-  Link,
-  MoreHorizontal,
-  StarOff,
-  Trash2,
-} from "lucide-react"
+// import {
+//   ArrowUpRight,
+//   Link,
+//   MoreHorizontal,
+//   StarOff,
+//   Trash2,
+// } from "lucide-react"
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+// import {
+//   DropdownMenu,
+//   DropdownMenuContent,
+//   DropdownMenuItem,
+//   DropdownMenuSeparator,
+//   DropdownMenuTrigger,
+// } from "@/components/ui/dropdown-menu"
 import {
   SidebarGroup,
   SidebarGroupLabel,
   SidebarMenu,
-  SidebarMenuAction,
+  // SidebarMenuAction,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
+  // useSidebar,
 } from "@/components/ui/sidebar"
 
 export function NavFavorites({
@@ -34,11 +34,11 @@ export function NavFavorites({
     emoji: string
   }[]
 }) {
-  const { isMobile } = useSidebar()
+  // const { isMobile } = useSidebar()
 
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-      <SidebarGroupLabel>Favorites</SidebarGroupLabel>
+      <SidebarGroupLabel>Projects</SidebarGroupLabel>
       <SidebarMenu>
         {favorites.map((item) => (
           <SidebarMenuItem key={item.name}>
@@ -48,7 +48,7 @@ export function NavFavorites({
                 <span>{item.name}</span>
               </a>
             </SidebarMenuButton>
-            <DropdownMenu>
+            {/* <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <SidebarMenuAction showOnHover>
                   <MoreHorizontal />
@@ -79,15 +79,15 @@ export function NavFavorites({
                   <span>Delete</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </SidebarMenuItem>
         ))}
-        <SidebarMenuItem>
+        {/* <SidebarMenuItem>
           <SidebarMenuButton className="text-sidebar-foreground/70">
             <MoreHorizontal />
             <span>More</span>
           </SidebarMenuButton>
-        </SidebarMenuItem>
+        </SidebarMenuItem> */}
       </SidebarMenu>
     </SidebarGroup>
   )

@@ -5,19 +5,11 @@ import { Journey } from "@/components/app-timeline"
 import { Expertise } from "@/components/app-expertise"
 import { Skills } from "@/components/app-skills"
 import { Project } from "@/components/app-project"
-// import {
-//   Breadcrumb,
-//   BreadcrumbItem,
-//   BreadcrumbList,
-//   BreadcrumbPage,
-// } from "@/components/ui/breadcrumb"
-// import { Separator } from "@/components/ui/separator"
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-
 
 export default function Home() {
   
@@ -31,9 +23,9 @@ export default function Home() {
           </div>
         </header>
         <Hero></Hero>
-        <Project></Project>
         <Expertise></Expertise>
         <Skills></Skills>
+        <Project></Project>
         <Journey></Journey>
         {/* <Contact></Contact> */}
         <footer className="flex h-14 shrink-0 items-center gap-2">

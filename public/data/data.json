@@ -42,12 +42,22 @@
         {
           "name": "EDA",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://drive.google.com/file/d/1APnuOxC9wdYWDpd7hJFk5xdpWkIEYUzH/view?usp=sharing"
         },
         {
-          "name": "Report",
+          "name": "LR Model",
           "path":
-            "https://data.mendeley.com/datasets/7w5zvr8jgp/5"
+            "https://drive.google.com/drive/folders/1lX1gfab_psNphUtvyJ-MCpYHkI79cEbZ?usp=sharing"
+        },
+        {
+          "name": "LSTM Model",
+          "path":
+            "https://drive.google.com/drive/folders/1Q9PpaWC3ON7ca8Th0oirhgDGUFxonNBt?usp=sharing"
+        },
+        {
+          "name": "BERT Model",
+          "path":
+            "https://drive.google.com/drive/folders/1-7WsnEkxD9U4LEVJZt8SpzIsvm5Sr9x6?usp=sharing"
         }
       ]
     },
@@ -168,47 +178,6 @@
       ]
     },
     { 
-      "id": "dEs4F5gHiJ", 
-      "title": "DTS Company Profile", 
-      "description": "The Dreta Teknologi Solusindo (DTS) Company Profile project creates a concise and compelling overview of DTS, showcasing its core values, expertise, and commitment to client success. The profile outlines its key service offerings, and builds credibility through project case studies and testimonials. Ultimately, the profile serves as a powerful marketing tool, attracting new clients, partners, and talent by clearly communicating DTS's value proposition and track record.", 
-      "responsibility": ["Responsible for all aspects of the project"],
-      "tools":["HTML", "CSS", "Javascript"],
-      "badgeInfo":
-        {
-          "badge": "Professional",
-          "badgeColor": "bg-blue-500"
-        },
-      "images":[
-        {
-          "name": "dts1",
-          "path":
-            "/project/dts1.png"
-        },
-        {
-          "name": "dts2",
-          "path":
-            "/project/dts2.png"
-        },
-        {
-          "name": "dts3",
-          "path":
-            "/project/dts3.png"
-        },
-        {
-          "name": "dts4",
-          "path":
-            "/project/dts4.png"
-        }
-      ],
-      "link":[
-        {
-          "name": "Live",
-          "path":
-            "https://www.dreta-tech.com/public/"
-        }
-      ]
-    },
-    { 
       "id": "o9PqRs2TuV", 
       "title": "Text Highlighter and Dictionary Search",
       "description": "This project tackles the unique language challenges within the mental health domain, which includes specialized terms and informal expressions. The system pre-processes data using NLTK, then utilizes a fine-tuned ALBERT model to predict and correct both non-word (misspelled) and real-word (contextually incorrect) errors. Accuracy is further enhanced by a Bigram model that leverages common word combinations and Edit Distance, which measures word similarity. Gramformer provides context-aware grammar and spelling suggestions, ensuring clear and accurate communication.", 
@@ -241,14 +210,20 @@
             "/project/nlp4.png"
         }
       ],
-      "link": null
+      "link": [
+        {
+          "name": "Github",
+          "path":
+            "https://github.com/fahriardsh/nlp-assignment"
+        }
+      ]
     },
     { 
       "id": "f7PqAs2GfJ", 
-      "title": "Air Pollution Forecasting - Time Series",
-      "description": "This project tackles the unique language challenges within the mental health domain, which includes specialized terms and informal expressions. The system pre-processes data using NLTK, then utilizes a fine-tuned ALBERT model to predict and correct both non-word (misspelled) and real-word (contextually incorrect) errors. Accuracy is further enhanced by a Bigram model that leverages common word combinations and Edit Distance, which measures word similarity. Gramformer provides context-aware grammar and spelling suggestions, ensuring clear and accurate communication.", 
-      "responsibility": ["Responsible for all aspects of the model and its integration into the web application"],
-      "tools":["Flask", "Python", "HTML", "CSS", "Javascript", "VSCode", "Google Colab", "Github"],
+      "title": "Air Pollution Forecasting",
+      "description": "This project uses Convolutional Neural Networks (CNNs) to improve air quality prediction, addressing the limitations of traditional models in handling complex pollution data influenced by weather and human activity. By training three CNN architectures (Basic, Deeper with Pooling, and with Dropout) on the Air Quality dataset and evaluating performance using MAE, MSE, and RMSE, the study aims to demonstrate that CNNs can significantly enhance prediction accuracy, benefiting public health and environmental policy.", 
+      "responsibility": ["Responsible for all aspects of the project"],
+      "tools":["Python", "Google Colab"],
       "badgeInfo":
         {
           "badge": "Academic",
@@ -288,9 +263,131 @@
             "https://www.kaggle.com/datasets/rupakroy/lstm-datasets-multivariate-univariate/data"
         },
         {
-          "name": "EDA, Data Preprocessing, and CNN Model",
+          "name": "EDA and Model",
           "path":
             "https://colab.research.google.com/drive/1mwJZg0hlLCQbl073r_rSJpONDP-sU8ct?usp=sharing"
+        }
+      ]
+    },
+    { 
+      "id": "g3PfBs3SfA", 
+      "title": "Telekom Churn Prediction",
+      "description": "This project addresses the critical challenge of customer turnover, which significantly impacts revenue and profitability within the telecommunications sector. This study aims to predict churn and provide actionable insights for implementing effective retention strategies. Exploratory data analysis informed data pre-processing and guided the selection of Decision Tree, Naïve Bayes, and Random Forest algorithms for churn prediction. Model performance was evaluated using key metrics including accuracy, precision, recall, F1-score, and AUC, with the Random Forest model demonstrating superior performance, achieving an accuracy of 97%. These results underscore the Random Forest model's potential to accurately predict telecom churn, enabling the development of targeted customer retention strategies.", 
+      "responsibility": ["Responsible for all aspects of the project"],
+      "tools":["R", "R Studio"],
+      "badgeInfo":
+        {
+          "badge": "Academic",
+          "badgeColor": "bg-green-500"
+        },
+      "images":[
+        {
+          "name": "aml",
+          "path":
+            "/project/aml.png"
+        },
+        {
+          "name": "aml1",
+          "path":
+            "/project/aml1.png"
+        },
+        {
+          "name": "aml2",
+          "path":
+            "/project/aml2.png"
+        },
+        {
+          "name": "aml3",
+          "path":
+            "/project/aml3.png"
+        },
+        {
+          "name": "aml4",
+          "path":
+            "/project/aml4.png"
+        }
+      ],
+      "link":[
+        {
+          "name": "Dataset",
+          "path":
+            "https://www.kaggle.com/datasets/barun2104/telecom-churn"
+        }
+      ]
+    },
+    { 
+      "id": "xEa1F5sZiK", 
+      "title": "Power Management System", 
+      "description": "Power Management System (PMS) designed to improve energy efficiency, reduce operating costs, and enhance system reliability across Telkomsel's facilities, even when utilizing equipment from different vendors; the system achieves this through proactive fault, performance, and inventory management, providing real-time power usage monitoring to identify waste, implementing dynamic control strategies to optimize energy distribution, and featuring tiered alarm management (critical, major, minor, offline), alongside a comprehensive overview of total rectifier and battery availability, thereby facilitating informed decision-making and reducing downtime by proactively addressing potential equipment failures and inefficiencies in a multi-vendor environment.", 
+      "responsibility": ["Frontend Development", "SQL Queries"],
+      "tools":["HTML", "CSS", "Javascript", "PostgreSQL", "NodeJS", "VSCode", "DBeaver", "Figma"],
+      "badgeInfo":
+        {
+          "badge": "Professional",
+          "badgeColor": "bg-blue-500"
+        },
+      "images":[
+        {
+          "name": "pms1",
+          "path":
+            "/project/pms1.png"
+        },
+        {
+          "name": "pms2",
+          "path":
+            "/project/pms2.png"
+        },
+        {
+          "name": "pms3",
+          "path":
+            "/project/pms3.png"
+        },
+        {
+          "name": "pms4",
+          "path":
+            "/project/pms4.png"
+        }
+      ],
+      "link":null
+    },
+    { 
+      "id": "dEs4F5gHiJ", 
+      "title": "DTS Company Profile", 
+      "description": "The Dreta Teknologi Solusindo (DTS) Company Profile project creates a concise and compelling overview of DTS, showcasing its core values, expertise, and commitment to client success. The profile outlines its key service offerings, and builds credibility through project case studies and testimonials. Ultimately, the profile serves as a powerful marketing tool, attracting new clients, partners, and talent by clearly communicating DTS's value proposition and track record.", 
+      "responsibility": ["Responsible for all aspects of the project"],
+      "tools":["HTML", "CSS", "Javascript"],
+      "badgeInfo":
+        {
+          "badge": "Professional",
+          "badgeColor": "bg-blue-500"
+        },
+      "images":[
+        {
+          "name": "dts1",
+          "path":
+            "/project/dts1.png"
+        },
+        {
+          "name": "dts2",
+          "path":
+            "/project/dts2.png"
+        },
+        {
+          "name": "dts3",
+          "path":
+            "/project/dts3.png"
+        },
+        {
+          "name": "dts4",
+          "path":
+            "/project/dts4.png"
+        }
+      ],
+      "link":[
+        {
+          "name": "Live",
+          "path":
+            "https://www.dreta-tech.com/public/"
         }
       ]
     }
