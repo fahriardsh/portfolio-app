@@ -56,7 +56,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             The Journey: A Continuous Quest for Knowledge
           </h2>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-            From Software Engineering to Data Science and the Pursuit of Lifelong Learning
+            From Software Engineering to Data Science and the Pursuit of Lifelong Learning.
           </p>
         </div>
 

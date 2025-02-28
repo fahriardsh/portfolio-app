@@ -23,7 +23,7 @@ export function Hero() {
         The road to freedom starts from here
       </p> */}
       <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-        Driven by innovation and a passion for technology...
+        Driven by innovation and a passion for technology.
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="max-w-3xl mx-auto pb-10 px-4 md:px-8 lg:px-10 text-center">

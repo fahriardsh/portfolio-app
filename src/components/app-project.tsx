@@ -42,7 +42,7 @@ export function Project() {
                 Projects
                 </h2>
                 <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-                Showcasing Expertise and Delivering Measurable Results
+                Showcasing Expertise and Delivering Measurable Results.
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 lg:px-20 xl:px-40 gap-x-10 gap-y-10 w-full flex items-center justify-center">
