@@ -89,7 +89,7 @@ export function Journey() {
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-lg font-semibold">Elevating my Expertise</p>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
             {/* Driven by a desire for continuous growth and specialized expertise, I made a decision to resign from my position and embark on a new chapter in my academic journey: pursuing a Master&apos;s degree, once again in Malaysia. */}
-            Seeking foro continuous growth, I embark on a new chapter in my academic journey: pursuing a Master&apos;s degree.
+            Seeking for continuous growth, I embark on a new chapter in my academic journey: pursuing a Master&apos;s degree.
           </p>
         </div>
       ),
