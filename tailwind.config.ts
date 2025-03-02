@@ -9,6 +9,12 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			'md': '768px', // The default
+			// 'extended-md': '900px', // Example - adjust to your preferred width
+			'extended-lg': '1200px', // keep lg
+			// other breakpoints, like xl, etc.
+		},
 		animation: {
 			move: "move 5s linear infinite",
 			},
