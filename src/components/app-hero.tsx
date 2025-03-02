@@ -55,7 +55,7 @@ export function Hero() {
         </button>
         <button 
           className="grid px-6 py-2 bg-transparent text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
-          onClick={() => window.open('https://drive.google.com/file/d/1wjXOyPJrx6_O9YFk6mDwebTvDzMGhyK3/view?usp=sharing', '_blank', 'noopener,noreferrer')}
+          onClick={() => window.open('https://drive.google.com/file/d/1rWO257ieppE4nDNkBNK1GwN8aNA7Xc5U/view?usp=sharing', '_blank', 'noopener,noreferrer')}
           style={{display: "flex"}}
         >
           <Download className="pr-2" />
