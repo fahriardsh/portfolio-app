@@ -45,7 +45,7 @@ export function Project() {
                 Showcasing Expertise and Delivering Measurable Results.
                 </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 extended-lg:grid-cols-3 2xl:grid-cols-4 lg:px-20 xl:px-40 gap-x-10 gap-y-10 w-full flex items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 extended-lg:grid-cols-3 extended-2xl:grid-cols-4 2xl:grid-cols-3 lg:px-20 lg:px-20 2xl:px-40 gap-x-10 gap-y-10 w-full flex items-center justify-center">
             {/* <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-20 xl:px-40 gap-x-10 gap-y-10 w-full flex items-center justify-center"> */}
                 {data && data.map((project: any) => (
                     <PinContainer

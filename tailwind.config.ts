@@ -11,8 +11,8 @@ export default {
   	extend: {
 		screens: {
 			'md': '768px', // The default
-			// 'extended-md': '900px', // Example - adjust to your preferred width
-			'extended-lg': '1200px', // keep lg
+			'extended-lg': '1200px', // extended lg
+			'extended-2xl': '1720px', // extended xl
 			// other breakpoints, like xl, etc.
 		},
 		animation: {
