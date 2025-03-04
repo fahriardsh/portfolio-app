@@ -45,30 +45,12 @@ export function Contact() {
         {/* <div className={cn("cursor-pointer overflow-hidden relative card rounded-lg shadow-md  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4" )}>
 
         </div> */}
-        {/* <div
-              className={cn(
-              "cursor-pointer overflow-hidden relative card rounded-lg shadow-md  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-              "bg-[url('/img/fahri.jpeg')] bg-cover"
-            )}
-            style={{height: "23rem", width: "100%"}}
-          >
-        </div> */}
         {/* <div>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
             A diverse skillset combining technical proficiency with creative design and strategic thinking.
           </p>
         </div> */}
       </div>
-      {/* <div className="max-w-xs w-full group/card">
-        <div
-            className={cn(
-              " cursor-pointer overflow-hidden relative card rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-              "bg-[url('/img/fahri.jpeg')] bg-cover"
-            )}
-            style={{height: "19rem"}}
-          >
-        </div>
-      </div> */}
     </div>
     
   );
