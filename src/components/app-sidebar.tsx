@@ -31,30 +31,11 @@ const data = {
   ],
   favorites: [
     {
-      name: "Service Orchestration",
-      url: "/project/pQ1vR5sT8j",
-      emoji: "📔",
-    },
-    {
-      name: "TM NGOSS NGT AI",
-      url: "/project/kLm0N3fGhI",
-      emoji: "⚡",
-    },
-    {
-      name: "Power Management System",
-      url: "/project/xEa1F5sZiK",
-      emoji: "🔋",
-    },
-    {
-      name: "DTS Company Profile",
-      url: "/project/dEs4F5gHiJ",
-      emoji: "🏢",
-    },
-    {
       name: "Sentiment Analysis and Prediction on Indonesian Presidential Candidature",
       url: "http://localhost:3000/project/a7B2xYz9Wq",
       emoji: "🗳️",
     },
+
     {
       name: "Adidas Sales Analysis and Recommendation",
       url: "/project/zYuXwV6CbA",
@@ -75,6 +56,26 @@ const data = {
       url: "/project/g3PfBs3SfA",
       emoji: "📡",
     },
+    {
+      name: "Service Orchestration",
+      url: "/project/pQ1vR5sT8j",
+      emoji: "📔",
+    },
+    {
+      name: "TM NGOSS NGT AI",
+      url: "/project/kLm0N3fGhI",
+      emoji: "⚡",
+    },
+    {
+      name: "Power Management System",
+      url: "/project/xEa1F5sZiK",
+      emoji: "🔋",
+    },
+    {
+      name: "DTS Company Profile",
+      url: "/project/dEs4F5gHiJ",
+      emoji: "🏢",
+    }
   ],
   // projects: [
   //   {
