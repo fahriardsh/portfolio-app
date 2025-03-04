@@ -31,9 +31,6 @@ export function Project() {
     }, []); // Empty dependency array ensures this effect runs only once on mount
 
     const data = projects
-    // const project: ProjectType = pr.data;
-    // console.log(projects.projects[2]);
-    // console.log(projects.projects[0]);
 
     return (
         <div className="py-20">

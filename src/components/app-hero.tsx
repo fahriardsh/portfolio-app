@@ -2,8 +2,16 @@
 import React from "react";
 import { Download } from "lucide-react"
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuGroup,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export function Hero() {
+
   const words = [
     {
       text: "Hello, I'm",
@@ -46,13 +54,39 @@ export function Hero() {
         >
           Github
         </button>
-        <button 
+        {/* <button 
           // className="grid shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           className="grid shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('mailto:fahriardsh@gmail.com', '_blank', 'noopener,noreferrer')}
         >
           Contact
-        </button>
+        </button> */}
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+          <button 
+            // className="grid shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+            className="grid shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+            // onClick={() => window.open('mailto:fahriardsh@gmail.com', '_blank', 'noopener,noreferrer')}
+          >
+            Contact
+          </button>
+            {/* <Button variant="outline">Open</Button> */}
+          </DropdownMenuTrigger>
+          <DropdownMenuContent style={{width: "167px"}}>
+            {/* <DropdownMenuLabel>Panel Position</DropdownMenuLabel>
+            <DropdownMenuSeparator /> */}
+            <DropdownMenuGroup>
+              <DropdownMenuItem
+                onClick={() => window.open('mailto:fahriardsh@gmail.com', '_blank', 'noopener,noreferrer')}>
+                Email
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                onClick={() => window.open('https://wa.me/6285156575049', '_blank', 'noopener,noreferrer')}>
+                Whatsapp
+              </DropdownMenuItem>
+            </DropdownMenuGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
         <button 
           className="grid px-6 py-2 bg-transparent text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
           onClick={() => window.open('https://drive.google.com/file/d/1rWO257ieppE4nDNkBNK1GwN8aNA7Xc5U/view?usp=sharing', '_blank', 'noopener,noreferrer')}

@@ -27,7 +27,6 @@ export default function Home() {
         <Skills></Skills>
         <Project></Project>
         <Journey></Journey>
-        {/* <Contact></Contact> */}
         <br />
         <br />
         <br />
