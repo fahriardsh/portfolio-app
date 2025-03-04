@@ -24,7 +24,7 @@ export function Contact() {
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 px-10 md:px-40 lg:px-60 py-10" style={{justifyItems: "center"}}>
         <div>
           <Image
-            src="/img/fahri.jpeg"
+            src="/img/fahri.webp"
             height="350"
             width="350"
             className="h-auto object-cover rounded-xl"
