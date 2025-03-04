@@ -62,76 +62,6 @@
       ]
     },
     { 
-      "id": "pQ1vR5sT8j", 
-      "title": "Service Orchestration", 
-      "description": "Service Orchestration (SOC) delivers a comprehensive solution for rapid network issue resolution and proactive service management at Telkomsel. It provides real-time visibility into network health, automated root cause analysis, and proactive alerting. The system quantifies service impact and potential revenue loss, integrates with external tools for seamless data sharing, and incorporates robust data integrity checks, accessible incident reporting, and secure user management. This enables faster problem identification, improved network stability, and informed decision-making.", 
-      "responsibility": ["UI/UX Design", "Frontend Development", "SQL Queries"],
-      "tools":["HTML", "CSS", "Javascript", "MySQL", "NodeJS", "VSCode", "DBeaver", "Figma"],
-      "badgeInfo":
-        {
-          "badge": "Professional",
-          "badgeColor": "bg-blue-500"
-        },
-      "images":[
-        {
-          "name": "soc1",
-          "path":
-            "/project/soc1.png"
-        },
-        {
-          "name": "soc2",
-          "path":
-            "/project/soc2.png"
-        },
-        {
-          "name": "soc4",
-          "path":
-            "/project/soc4.png"
-        },
-        {
-          "name": "soc3",
-          "path":
-            "/project/soc3.png"
-        }
-      ],
-      "link": null
-    },
-    { 
-      "id": "kLm0N3fGhI", 
-      "title": "TM NGOSS NGT AI", 
-      "description": "Telekom Malaysia's Next Generation Operations Support Service (TM NGOSS) project, incorporating Next Generation Transport (NGT) and Artificial Intelligence (AI), aims to revolutionize network management and enhance customer satisfaction. The project achieves this by correlating alarms network-wide to identify root causes, dramatically reducing alarm volume. Core components such as root-cause analysis, automation, and service impact analysis contribute to a significant reduction in problem resolution time – exceeding 50%. This results in faster, more accurate fixes, while proactive customer communication improves service quality and the overall customer experience. The future-proof NGOSS framework ensures the solution's long-term adaptability and value, evolving alongside the network to meet future challenges", 
-      "responsibility": ["UI/UX Design", "Frontend Development"],
-      "tools":["HTML", "CSS", "Typescript", "ReactJS", "Grafana", "VSCode", "Figma"],
-      "badgeInfo":
-        {
-          "badge": "Professional",
-          "badgeColor": "bg-blue-500"
-        },
-      "images":[
-        {
-          "name": "tm1",
-          "path":
-            "/project/tm1.png"
-        },
-        {
-          "name": "tm2",
-          "path":
-            "/project/tm2.png"
-        },
-        {
-          "name": "tm3",
-          "path":
-            "/project/tm3.png"
-        },
-        {
-          "name": "tm4",
-          "path":
-            "/project/tm4.png"
-        }
-      ],
-      "link": null
-    },
-    { 
       "id": "zYuXwV6CbA", 
       "title": "Adidas Sales Analysis and Recommendation", 
       "description": "The project aims to optimize sales strategies and improve overall business performance. The core objectives include increasing sales and profitability by analyzing unit sales data for each product category. The project will also focus on enhancing state-level performance by studying states exhibiting strong sales and profit performance, identifying best practices to replicate. Finally, the analysis will inform the development of future retail strategies by determining the most suitable sales methods, comparing the effectiveness of offline versus online channels to optimize resource allocation.", 
@@ -315,6 +245,76 @@
         }
       ]
     },
+    { 
+      "id": "pQ1vR5sT8j", 
+      "title": "Service Orchestration", 
+      "description": "Service Orchestration (SOC) delivers a comprehensive solution for rapid network issue resolution and proactive service management at Telkomsel. It provides real-time visibility into network health, automated root cause analysis, and proactive alerting. The system quantifies service impact and potential revenue loss, integrates with external tools for seamless data sharing, and incorporates robust data integrity checks, accessible incident reporting, and secure user management. This enables faster problem identification, improved network stability, and informed decision-making.", 
+      "responsibility": ["UI/UX Design", "Frontend Development", "SQL Queries"],
+      "tools":["HTML", "CSS", "Javascript", "MySQL", "NodeJS", "VSCode", "DBeaver", "Figma"],
+      "badgeInfo":
+        {
+          "badge": "Professional",
+          "badgeColor": "bg-blue-500"
+        },
+      "images":[
+        {
+          "name": "soc1",
+          "path":
+            "/project/soc1.png"
+        },
+        {
+          "name": "soc2",
+          "path":
+            "/project/soc2.png"
+        },
+        {
+          "name": "soc4",
+          "path":
+            "/project/soc4.png"
+        },
+        {
+          "name": "soc3",
+          "path":
+            "/project/soc3.png"
+        }
+      ],
+      "link": null
+    },
+    { 
+      "id": "kLm0N3fGhI", 
+      "title": "TM NGOSS NGT AI", 
+      "description": "Telekom Malaysia's Next Generation Operations Support Service (TM NGOSS) project, incorporating Next Generation Transport (NGT) and Artificial Intelligence (AI), aims to revolutionize network management and enhance customer satisfaction. The project achieves this by correlating alarms network-wide to identify root causes, dramatically reducing alarm volume. Core components such as root-cause analysis, automation, and service impact analysis contribute to a significant reduction in problem resolution time – exceeding 50%. This results in faster, more accurate fixes, while proactive customer communication improves service quality and the overall customer experience. The future-proof NGOSS framework ensures the solution's long-term adaptability and value, evolving alongside the network to meet future challenges", 
+      "responsibility": ["UI/UX Design", "Frontend Development"],
+      "tools":["HTML", "CSS", "Typescript", "ReactJS", "Grafana", "VSCode", "Figma"],
+      "badgeInfo":
+        {
+          "badge": "Professional",
+          "badgeColor": "bg-blue-500"
+        },
+      "images":[
+        {
+          "name": "tm1",
+          "path":
+            "/project/tm1.png"
+        },
+        {
+          "name": "tm2",
+          "path":
+            "/project/tm2.png"
+        },
+        {
+          "name": "tm3",
+          "path":
+            "/project/tm3.png"
+        },
+        {
+          "name": "tm4",
+          "path":
+            "/project/tm4.png"
+        }
+      ],
+      "link": null
+    },   
     { 
       "id": "xEa1F5sZiK", 
       "title": "Power Management System", 
