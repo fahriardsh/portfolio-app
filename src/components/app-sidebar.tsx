@@ -32,7 +32,7 @@ const data = {
   favorites: [
     {
       name: "Sentiment Analysis and Prediction on Indonesian Presidential Candidature",
-      url: "http://localhost:3000/project/a7B2xYz9Wq",
+      url: "/project/zYuXwV6CbA",
       emoji: "🗳️",
     },
 
