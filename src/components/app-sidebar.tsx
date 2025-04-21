@@ -147,7 +147,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <div
               className={cn(
                 " cursor-pointer overflow-hidden relative card rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-                "bg-[url('/img/fahri.webp')] bg-cover"
+                "bg-[url('/img/fahri.png')] bg-cover"
               )}
               style={{height: "19rem"}}
             >
